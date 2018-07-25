@@ -1,0 +1,17 @@
+﻿/* 变色 */
+@keyframes myfirst{
+    from{background: red;}
+    to{background:green;}
+}
+h1{
+animation: myfirst 2s infinite;
+}
+
+/* 透明变化 */
+@keyframes myfirst2{
+    from{opacity:1}
+    to{opacity:100}
+}
+h2{
+animation: myfirst2 1s infinite;
+}
