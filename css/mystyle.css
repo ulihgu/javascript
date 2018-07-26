@@ -57,12 +57,26 @@ page {
 #q {
     background-color: white;
     animation: q 10s infinite;
+    background-image: url("https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1532610714&di=a810c5dd5b7f490faf96bde461cc4750&src=http://images4.c-ctrip.com/target/t1/hhtravel/102/289/441/e5706a6d467346ce9d562b19141b5b46.jpg");
+    background-size: 100%;
 }
 
 #d {
     background-color: black;
     color: white;
     animation: d 10s infinite;
+}
+#z{
+    font-size: 36px;
+    display: block;
+    animation: z 10s infinite;
+}
+@keyframes z {
+    0%{opacity: 0;    }
+    70%{opacity: 0;    }
+    80%{opacity: 100;}
+    90%{opacity: 0;}
+    100%{opacity: 0;}
 }
 
 @keyframes c {
